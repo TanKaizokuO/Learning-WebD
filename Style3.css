@@ -1,8 +1,7 @@
 *
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: bisque;
-}
+    background-color :rgb(255, 235, 205);
 h1{
     color: #b92b27;
     font-family: serif;
@@ -40,4 +39,16 @@ li {
 }
 #Basic{
     color: rgb(255, 7, 226);
+}
+form > label{
+    background-color: rgb(241, 209, 162);
+    text-align: justify;
+    color: rgb(44, 14, 80);
+    line-height: 40px;
+}
+input[type="text"]{
+    color: #ff0000;
+}
+input[type="password"]{
+    color: #ff0000;
 }
