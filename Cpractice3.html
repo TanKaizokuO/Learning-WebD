@@ -1,19 +1,24 @@
 <html>
     <head>
-        PRACTCE 2
+        <link rel="stylesheet" href="Style3.css">
+        
         
     </head>
     <body>
-        <link rel="stylesheet" ref="Style.css">
+        <h1>
+           <u> Practicing HTML and CSS</u>
+        </h1>
         <form>
             <input type="checkbox" id="check" name="check" >
             <label for="check">I am over 18 years of age</label> <br>
+            <label>Age Range : </label>
             <input type="radio" id="check1" name="check1" >
             <label for="check1">18-21</label>
             <input type="radio" id="check1" name="check1" >
             <label for="check1">21-25</label>
             <input type="radio" id="check1" name="check1" >
             <label for="check1">more than 25</label> <br>
+            <label for="STATE">State of Residence :  </label>
             <select name="STATE" id="STATE">
                 <option value="West Bengal">West Bengal</option>
                 <option value="Bihar">Bihar</option>
@@ -25,25 +30,22 @@
             <input type="range" id="N.W." name="N.W." min="O" Max="100" step="5" value="5">
             <button>Submit</button><br>
         </form>
-
+        <h2 id="Log in"><u>Enter Details below to sign in</u></h2>
         <form action="/action.php">
             <!dont write like this> 
-            <label> 
-            Enter your Name
-            <input type="text" placeholder="Enter here" name="name"><br>
+            <label>Enter your Username : <input type="text" placeholder="Enter here" name="name"><br>
             </label>
             <! write like this>
-            <label for="age"> Enter your age </label>
-            <input type="number" placeholder="Enter here" id="age" name="age"><br>
-            <label for="password"> your password</label> 
+            <label for="password">Enter your password : </label> 
             <input type="password" placeholder="Enter here" id="password" name="password"><br>
             <button>Log in</button><br>
         </form>
-
+        <h3><u>Use the search bar below to search in Youtube</u></h3>
         <form action="https://www.youtube.com/results">
             <label for="search">Search Section</label>
             <input type="text" placeholder="Enter" id="search" name="search_query">
             <button>SEARCH</button><br>
+            <h4><u> Feedback </u></h4>
             <label for="Feedback">Please give us Feedback</label>
             <textarea id="Feedback" name="Feedback" placeholder="Please write your Feedback here" rows="10" column="20"></textarea>
             <button>Submit</button>
