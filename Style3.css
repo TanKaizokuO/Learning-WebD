@@ -49,6 +49,14 @@ form > label{
 input[type="text"]{
     color: #ff0000;
 }
-input[type="password"]{
+input[type="password"]
+{
     color: #ff0000;
+}
+.button:hover{
+    background-color: rgb(255, 186, 39);
+    color: rgb(255, 0, 0);
+}
+input[type="Radio"]:checked+label{
+    font-weight: 700;
 }
