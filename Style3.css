@@ -14,8 +14,30 @@ h2
 
 }
 h3{
-    color: darkblue;
+    color: rgb(79, 79, 223);
 }
 h4{
     color: #0aa67d;
+}
+#STATE{
+    
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    background-color: rgb(255, 216, 132);
+}
+ul {
+    list-style: none;
+  }
+  
+li {
+    display: inline-block;
+    margin-right: 20px; /* add spacing between items */
+  }
+#Intro {
+    font-family :'Rockwell';
+    color: #5c1917;
+}
+#Basic{
+    color: rgb(255, 7, 226);
 }
