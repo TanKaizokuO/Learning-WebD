@@ -1,4 +1,4 @@
-*
+'
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color :rgb(255, 235, 205);
@@ -32,7 +32,7 @@ ul {
   
 li {
     display: inline-block;
-    margin-right: 20px; /* add spacing between items */
+    margin-right: 20px; /' add spacing between items '/
   }
 #Intro {
     font-family :'Rockwell';
