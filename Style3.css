@@ -2,6 +2,7 @@
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color :rgb(255, 235, 205);
+}
 h1{
     color: #b92b27;
     font-family: serif;
@@ -36,6 +37,19 @@ li {
 #Intro {
     font-family :'Rockwell';
     color: #5c1917;
+    border-width: 05;
+    border-color: #c94b46;
+    border-style:dashed;
+}
+#form1{
+    border-width: 05;
+    border-color: #c94b46;
+    border-style:dashed;
+}
+#form2{
+    border-width: 05;
+    border-color: #c94b46;
+    border-style:dashed;
 }
 #Basic{
     color: rgb(255, 7, 226);
@@ -59,4 +73,4 @@ input[type="password"]
 }
 input[type="Radio"]:checked+label{
     font-weight: 700;
-}
+}  
