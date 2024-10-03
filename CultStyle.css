@@ -6,15 +6,18 @@
    background-color: #FFEB55;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
+#outer{
+    display: flex;
+    justify-content: center;
+}
 
 
-.Mhead{
+#Mhead{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         display: inline-block;
         border: 6px solid #9a1693 ;
         border-radius: 20%;
         padding: 5px 20px;
-        margin-left :  17em;
         color: #D91656;
 }
 h2{
@@ -83,11 +86,18 @@ h4{
 .JoinT,.OriginT,#ScriptureT{
     margin: 5px;
 }
-#Join,#Origin,#Scripture{
+#Join,#Origin {
     display: inline-block;    
     border: 3PX SOLID black;
     padding:5px;
     margin-top: 5px;
+}
+#Scripture{
+    display: inline-block;    
+    border: 3PX SOLID black;
+    padding:5px;
+    margin-top: 5px;
+    padding-left: 6px;
 }
 .ScriptureP{
     display: inline-block;
